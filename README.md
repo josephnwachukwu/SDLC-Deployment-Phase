@@ -14,9 +14,9 @@ A code freeze should happen a week (Five working days) before a production reale
 
 Before the deployment process can be inititated There are a list of testing prerequisites that need to be complated first.
 
-- [ ] First, QA needs to sign off on all critical tickets and showstoppers in a QA or UAT Environment.
-- [ ] Next, The Accessibility team needs to sign off on all Accessibility checks and defect fixes in a QA or UAT Environment
-- [ ] Next, The package release candidate should be deployed on a PT (Performance Testing) environment for testing by the PT Team
+- [X] First, QA needs to sign off on all critical tickets and showstoppers in a QA or UAT Environment.
+- [X] Next, The Accessibility team needs to sign off on all Accessibility checks and defect fixes in a QA or UAT Environment
+- [X] Next, The package release candidate should be deployed on a PT (Performance Testing) environment for testing by the PT Team
 
 
 All Defects from showstopper to P3 should be resolved for sign off. 
