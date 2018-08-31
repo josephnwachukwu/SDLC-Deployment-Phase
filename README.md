@@ -10,10 +10,10 @@ A code freeze should happen a week (Five working days) before a production reale
 
 All Defects from showstopper to P3 should be resolved for sign off. 
 Code should be deployed on a PT (Performance Testing) envoriment 
-Release manamgement team conference one week before production
+Release manamgement team conference one week before production then two days.
 
 ### IQOQ (Input Queue Output Queue)
-The IQOQ is an excel sheet that mentions what changes will be deployed to the production servers. For all angular changes you will need a webcontent build and for ATG changes you will need a commmerce build. each POD will have to mention every file that has been changed.
+The IQOQ is an excel sheet that mentions what changes will be deployed to the production servers. For all angular changes you will need a webcontent build and for ATG changes you will need a commmerce build. each POD will have to mention every file that has been changed. Roll back changes.
 
 An example of the IQOQ Document can be found here [IQOQ Doc](http://sharepoint)
 
