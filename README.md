@@ -1,21 +1,35 @@
 # SDLC-Deployment-Phase
 
-## Code Freeze
-A code freeze should happen a week (Five working days) before a production realease. Only critical code fixes should be entered during this time. 
+The deployment phase is the final phase of the software development life cycle (SDLC) and puts the product into production. After the project team tests the product and the product passes each testing phase, the product is ready to go live. This means that the product is ready to be used in a real environment by all end users of the product.
+
+There are various phases of the deployment process the project team must follow to ensure the code and technology deploy appropriately. The phases include deployment preparation and procedures, product deployment, transferring ownership of the product, and closing the deployment phase.
 
 ## Preparation and Procedures
-1. QA sign off
-2. Accessibility sign off
-3. Performance Testing sign off
+
+### Code Freeze
+
+A code freeze should happen a week (Five working days) before a production realease. Only critical code fixes should be entered during this time. 
+
+### Testing
+
+Before the deployment process can be inititated There are a list of testing prerequisites that need to be complated first.
+
+- [ ] First, QA needs to sign off on all critical tickets and showstoppers in a QA or UAT Environment.
+- [ ] Next, The Accessibility team needs to sign off on all Accessibility checks and defect fixes in a QA or UAT Environment
+- [ ] Next, The package release candidate should be deployed on a PT (Performance Testing) environment for testing by the PT Team
+
 
 All Defects from showstopper to P3 should be resolved for sign off. 
-Code should be deployed on a PT (Performance Testing) envoriment 
+
 Release manamgement team conference one week before production then two days.
 
 ### IQOQ (Input Queue Output Queue)
+
 The IQOQ is an excel sheet that mentions what changes will be deployed to the production servers. For all angular changes you will need a webcontent build and for ATG changes you will need a commmerce build. each POD will have to mention every file that has been changed. Roll back changes.
 
 An example of the IQOQ Document can be found here [IQOQ Doc](http://sharepoint)
+
+
 
 A tag will be created for production after UAT1 as signed off for QA.
 
