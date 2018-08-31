@@ -14,6 +14,8 @@ Code should be deployed on a PT (Performance Testing) envoriment
 ### IQOQ (Input Queue Output Queue)
 The IQOQ is an excel sheet that mentions what changes will be deployed to the production servers. For all angular changes you will need a webcontent build and for ATG changes you will need a commmerce build. each POD will have to mention every file that has been changed.
 
+An example of the IQOQ Document can be found here [IQOQ Doc](http://sharepoint)
+
 A tag will be created for production after UAT1 as signed off for QA.
 
 Then the tagged branch will go to the enviromnent team so that it can be merged in as part of the release branch. 
